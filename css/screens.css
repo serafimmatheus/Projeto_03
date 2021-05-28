@@ -1,0 +1,263 @@
+/*------------------------*/
+/*-----MEDIAS SCREENS-----*/
+/*------------------------*/
+
+@media screen and (max-width: 1025px){
+	div.apresentacao-text{
+		float: left;
+	}
+
+	div.apresentacao-bg img{
+		float: right;
+		margin-top: -250px;
+		margin-right: 100px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	div.apresentacao-text{
+        left: 10%;
+    }
+
+    div.apresentacao-bg img{
+        width: 50%;
+        left: 40%;
+        bottom: 0;
+    }
+
+    div.sobre-empresa{
+        width: 100%;
+    }
+
+    div.sobre-empresa-text{
+        padding: 60px;
+        text-align: center;
+    }
+
+    .sobre-empresa-text h1{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    div.sobre-equipe{
+        width: 100%;
+        margin-top: 0;
+    }
+    
+    div.sobre-equipe-02{
+        height: 400px;
+        padding: 120px;
+    }
+    
+    div.sobre-equipe p{
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    div.autor{
+        width: 75%;
+    }
+    
+    div.autor h1{
+        margin: 10px 0;
+    }
+    
+    
+    div.autor-img img{
+        width: 100px;
+        position: relative;
+        border-radius: 50px;
+    }
+
+    div.slider-bullets{
+        margin-left:115px;
+    }
+
+    div.contato{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    div.google-maps{
+        width: 100%;
+    }
+
+    div.google-maps h2{
+        text-align: center;
+    }
+
+    div.mapa{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 510px){
+	div.logo{
+ 		top: 0;
+ 		left: 50%;
+ 		transform: translateX(-50%);
+	}
+
+	nav.desktop{
+		display: none;
+	}
+
+	/*chamada-2*/
+
+    section.chamada-2{
+        height: 200px;
+    }
+
+	div.chamada-2-text{
+		margin: 0px;
+	}
+
+	div.chamada-2-text h1{
+		padding-top: 10px;
+		width: 400px;
+		text-align: center;
+		display: inline-block;
+	}
+
+	div.chamada-2-text p{
+		width: 400px;
+	}
+
+	div.chamada-2-bg img{
+		display: none;
+	}
+
+	/*sobre*/
+	div.sobre-empresa{
+		position: static;
+        padding: 50px;
+        height: auto;
+		width: 100%;
+	}
+
+	div.sobre-empresa-text{
+		position: static;
+		padding: 0;
+		text-align: center;
+	}
+
+	div.sobre-equipe{
+		width: 100%;
+        position: relative;
+        top: -70px;
+        left: 0;
+	}
+
+	div.autor{
+		width: 70%;
+        position: relative;
+        left: 20px;
+	}
+
+    div.autor-img{
+        width: 30%;
+    }
+
+    div.autor-img img{
+        width: 100%;
+    }
+
+    div.sobre-equipe-02 p{
+        position: relative;
+        left: 20px;
+    }
+
+    div.slider-bullets{
+        position: relative;
+        left: 20px;
+    }
+
+   
+
+	/*contato*/
+	div.contato{
+		width: 100%;
+	}
+
+	div.google-maps{
+		margin-top: 40px;
+		width: 100%;
+	}
+
+
+	/*----------------*/
+	/*-----MOBILE-----*/
+	/*----------------*/
+
+	div.icon-bar{
+		position: relative;
+		z-index: 20;
+		display: block;
+		float: right;
+		color: white;
+		font-size: 30px;
+		margin: 20px 0;
+		cursor: pointer;
+		margin-right: 20px;
+	}
+
+	nav.mobile{
+		width: calc(100% + 20px);
+		display: none;
+		float: right;
+	}
+
+	nav.mobile ul{
+		background: #311b92; 
+		width: 100%;
+		margin-left: 10px;
+		text-align: center;
+		list-style-type: none;
+	}
+
+	nav.mobile li{
+		padding: 8px 0;
+		border-bottom: 2px solid black;
+	}
+
+	nav.mobile a{
+		text-decoration: none;
+		color: white;
+	}
+
+	/*----------------*/
+
+	div.chamada-text{
+        width: 80%;
+		left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+	}
+
+	div.chamada-text h2{
+		font-size: 30px;
+	}
+
+	div.chamada-text p{
+		font-size: 15px;
+	}
+
+	div.apresentacao-text{
+		position: relative;
+		top: 0;
+		left: 50%;
+        transform: translateX(-50%);
+	}
+
+	div.apresentacao-bg img{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 320px){
+    body{
+        display: none;
+    }
+}

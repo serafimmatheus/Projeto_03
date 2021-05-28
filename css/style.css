@@ -1,0 +1,417 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	border: 0;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+/*----------------------------*/
+/*-----CLASSES AUXILIARES-----*/
+/*----------------------------*/
+
+.clear{
+	clear: both;
+}
+
+.container{
+	width: 100%;
+	max-width: 1280px;
+	padding: 0 2%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.selected{
+	font-weight: bold;
+}
+
+.w50{
+	width: 50%;
+	display: flex;
+}
+
+/*----------------*/
+/*-----HEADER-----*/
+/*----------------*/
+
+header.bg-capa{
+	position: relative;
+	background-image: url('../img/capa.png');
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 90vh;
+	max-height: 700px;
+}
+
+div.container > div.logo{
+	position: relative;
+	z-index: 10;
+}
+
+div.container > nav{
+	position: relative;
+	z-index: 10;
+}
+
+div.bg-bar{
+	position: absolute;
+	background: rgba(49, 27, 146, 0.8);
+	width: 100%;
+	height: auto;
+	padding: 40px 0;
+	z-index: 2;
+}
+
+/*-----LOGO-----*/
+
+div.logo{
+	float: left;
+}
+
+div.logo a{
+	color: white;
+	text-decoration: none;
+}
+
+div.logo h2{
+	margin: 20px 0; 
+	width: 200px;
+	height: 30px;
+}
+/*-----NAV-----*/
+
+nav.desktop ul{
+	padding: 30px 0;
+	float: right;
+	list-style-type: none;
+	display: flex;
+}
+
+nav.desktop li{
+	margin: 0 30px;
+}
+
+nav.desktop ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+nav.mobile{
+	display: none;
+}
+
+div.icon-bar{
+	display: none;
+}
+
+/*--------------------------*/
+/*-----DIV CHAMADA-TEXT-----*/
+/*--------------------------*/
+
+header > .container{
+	position: relative;
+}
+
+div.chamada-text{
+	position: absolute;
+	bottom: 200px;
+	right: 200px;
+	width: 500px;
+}
+
+div.chamada-text h2{
+	font-size: 40px;
+	font-weight: 300;
+	color: white;
+}
+
+div.chamada-text p{
+	font-size: 17px;
+	color: white;
+	margin-top: 15px;
+	width: 400px;
+	text-align: justify;
+}
+
+/*-----------------------------*/
+/*-----SECTION APRESENTACAO----*/
+/*-----------------------------*/
+
+/*-----APRESENTACAO-TEXT-----*/
+section.apresentacao{
+	background: #311b92;
+	position: relative;
+}
+
+div.apresentacao-text{
+	position: absolute;
+	left: 25%;
+	float: left;
+	color: white;
+	padding: 20px 0;
+	width: 50%;
+}
+
+div.apresentacao-text p{
+	margin-top: 20px;
+}
+
+div.apresentacao-text li{
+	list-style-position: inside;
+	margin-top: 8px;
+}
+
+div.submit input{
+	width: 150px;
+	height: 40px;
+	color: white;
+	background: #ef6c00;
+	border-radius: 18px;
+	border: 0;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+div.submit input:hover{
+	background: #fb8c00;
+}
+
+/*-----APRESENTACAO-BG-----*/
+
+div.apresentacao-bg{
+	float: right;
+	width: 50%;
+	height: 300px;
+	/*margin-bottom: 30px;*/
+}
+
+div.apresentacao-bg img{
+	width: 30%;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+}
+
+/*---------------------------*/
+/*-----SECTION CHAMADA-2-----*/
+/*---------------------------*/
+
+section.chamada-2{
+	width: 100%;
+	height: 400px;
+}
+
+div.chamada-2-text{
+	padding: 60px 0;
+	text-align: center;
+}
+
+div.chamada-2-text p{
+	width: 60%;
+	text-align: center;
+	display: inline-block;
+	margin-top: 20px;
+}
+div.chamada-2-bg{
+	position: relative;
+}
+
+div.chamada-2-bg img{
+	display: block;
+	z-index: 3;
+	position: relative;
+	width: 80%;
+	left: 50%;
+	transform: translateX(-50%);
+	box-shadow: 0px 10px 53px 10px rgba(0,0,0,0.75);
+	border-radius: 5px;
+}
+
+/*-----------------------*/
+/*-----SECTION SOBRE-----*/
+/*-----------------------*/
+
+div.sobre-empresa{
+	margin-top: 200px;
+	padding: 80px 0;
+	width: 50%;
+	float: left;
+	height: 400px;
+	background: rgba(91, 54, 255);
+}
+
+div.sobre-empresa-text{
+	width: 100%;
+	text-align: right;
+	padding: 100px;
+	right: 25px;
+	color: rgb(255, 255, 255);
+}
+
+.sobre-empresa-text h1{
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+/*-----SOBRE-EQUIPE-----*/
+div.sobre-equipe{
+	position: relative;
+	margin-top: 200px;
+	float: right;
+	width: 50%;
+	height: 400px;
+}
+
+div.sobre-equipe-02{
+	position: absolute;
+	display: none;
+	width: 100%;
+	height: 400px;
+	padding: 130px 60px;
+}
+
+div.sobre-equipe p{
+	margin-top: 10px;
+	float: left;
+	width: 80%;
+}
+
+div.autor{
+	width: 80%;
+	float: right;
+}
+
+div.autor h1{
+	margin: 10px 0;
+}
+
+
+div.autor-img img{
+	width: 100px;
+	position: relative;
+	border-radius: 50px;
+}
+
+/*-----DIV SLIDER-BULLETS-----*/
+
+div.slider-bullets{
+	position: relative;
+	left: 50%;
+	float: left;
+	width: 100%;
+	margin-left: 50px;
+	margin-top: -30px;
+}
+
+div.slider-bullets span{
+	float: left;
+	width: 12px;
+	height: 12px;
+	background: gray;
+	border-radius: 6px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+/*--------------------------------*/
+/*-----SECTION BANNER-CONTATO-----*/
+/*--------------------------------*/
+
+section.banner-contato{
+	padding: 30px 0;
+	width: 100%;
+	background: #311b92;
+}
+
+div.contato{
+	padding: 0 50px;
+	width: 50%;
+	float: left;
+}
+
+div.contato h2{
+	color: white;
+}
+
+div.contato p{
+	color: white;
+	margin: 10px 0;
+}
+
+div.contato input[type="text"]{
+	width: 100%;
+	height: 40px;
+	padding: 8px;
+}
+
+div.contato input[type="e-mail"]{
+	width: 100%;
+	height: 40px;
+	margin: 15px 0;
+	padding: 8px;
+}
+
+div.contato textarea{
+	width: 100%;
+	height: 130px;
+	padding: 8px;
+	resize: none;
+}
+
+div.contato input[type="submit"]{
+	width: 100px;
+	height: 40px;
+	margin-top: 10px;
+	background: #e37d00;
+	color: white;
+	cursor: pointer;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+/*-----GOOGLE-MAPS-----*/
+
+div.google-maps{
+	float: left;
+	padding: 0 50px;
+	
+}
+
+div.google-maps h2{
+	color: white;
+}
+
+div.mapa{
+	border: 5px solid rgb(187, 172, 172);
+	margin-top: 20px;
+	width: 400px;
+	height: 400px;
+	background: white;
+}
+
+footer{
+	width: 100%;
+	padding: 30px 0;
+	text-align: center;
+	background: #2a1681;
+	color: white;
+	border-top: 3px solid #25146e;
+}
+
+footer p:nth-last-of-type(1){
+	float: left;
+}
+
+footer p:nth-last-of-type(2){
+	float: right;
+}
+
+
+
